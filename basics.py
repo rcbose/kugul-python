@@ -53,7 +53,7 @@ x = x ^ y
 y = x ^ y
 x = x ^ y
 
-print("x:", x)  # Output: x: 20
+print("x:", x) 
 print("y:", y) 
 
 a = 10 
@@ -72,3 +72,17 @@ print("Left Shift of a by 2:", result_left_shift)
 
 result_right_shift = a >> 2
 print("Right Shift of a by 2:", result_right_shift) 
+
+print(list(['bose','ran','kogul','bose']))
+
+import math
+
+number = 25
+square_root = math.sqrt(number)
+
+print("Square root of", number, "is:", square_root)
+
+floating_number = 7.8
+floor_value = math.floor(floating_number)
+
+print("Floor value of", floating_number, "is:", floor_value)
