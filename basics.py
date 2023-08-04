@@ -86,3 +86,11 @@ floating_number = 7.8
 floor_value = math.floor(floating_number)
 
 print("Floor value of", floating_number, "is:", floor_value)
+x = int(input("Enter 1st number"))
+y = int(input("Enter 2nd number"))
+z = x + y
+print (z)
+ch = input('enter a char')[0]
+print (ch)
+result = eval(input('enter a expr'))
+print (result)
