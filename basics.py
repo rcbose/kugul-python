@@ -94,3 +94,15 @@ ch = input('enter a char')[0]
 print (ch)
 result = eval(input('enter a expr'))
 print (result)
+import math
+
+# Calculate the square root of a number
+number = 25
+square_root = math.sqrt(number)
+
+print("Square root of", number, "is:", square_root)
+
+floating_number = 7.8
+floor_value = math.floor(floating_number)
+
+print("Floor value of", floating_number, "is:", floor_value)
