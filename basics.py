@@ -92,8 +92,7 @@ z = x + y
 print (z)
 ch = input('enter a char')[0]
 print (ch)
-result = eval(input('enter a expr'))
-print (result)
+
 import math
 
 # Calculate the square root of a number
