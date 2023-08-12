@@ -105,3 +105,19 @@ floating_number = 7.8
 floor_value = math.floor(floating_number)
 
 print("Floor value of", floating_number, "is:", floor_value)
+
+import sys
+
+if len(sys.argv) == 3: 
+    try:
+        num1 = float(sys.argv[1])
+        num2 = float(sys.argv[2])
+    
+        result = num1 + num2
+
+        print("The sum of", num1, "and", num2, "is:", result)
+
+    except ValueError:
+        print("Invalid input. Please provide two valid numbers.")
+else:
+    print("Usage: python example.py <number1> <number2>")
