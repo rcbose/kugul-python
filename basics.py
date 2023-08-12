@@ -106,18 +106,13 @@ floor_value = math.floor(floating_number)
 
 print("Floor value of", floating_number, "is:", floor_value)
 
-import sys
+def add_numbers(a, b):
+    return a + b
 
-if len(sys.argv) == 3: 
-    try:
-        num1 = float(sys.argv[1])
-        num2 = float(sys.argv[2])
-    
-        result = num1 + num2
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
 
-        print("The sum of", num1, "and", num2, "is:", result)
+result = add_numbers(num1, num2)
 
-    except ValueError:
-        print("Invalid input. Please provide two valid numbers.")
-else:
-    print("Usage: python example.py <number1> <number2>")
+print("The sum of", num1, "and", num2, "is:", result)
+
